@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B5DB424D1BDE428A007CAC85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB424C1BDE428A007CAC85 /* AppDelegate.swift */; };
-		B5DB424F1BDE428A007CAC85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB424E1BDE428A007CAC85 /* ViewController.swift */; };
-		B5DB42521BDE428A007CAC85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DB42501BDE428A007CAC85 /* Main.storyboard */; };
 		B5DB42541BDE428A007CAC85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5DB42531BDE428A007CAC85 /* Assets.xcassets */; };
-		B5DB42571BDE428A007CAC85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DB42551BDE428A007CAC85 /* LaunchScreen.storyboard */; };
 		B5DB42621BDE428A007CAC85 /* CAWeiBoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB42611BDE428A007CAC85 /* CAWeiBoAppTests.swift */; };
 		B5DB426D1BDE428A007CAC85 /* CAWeiBoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB426C1BDE428A007CAC85 /* CAWeiBoAppUITests.swift */; };
+		B5DB42941BDE45D1007CAC85 /* CAMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB42931BDE45D1007CAC85 /* CAMainTabBarController.swift */; settings = {ASSET_TAGS = (); }; };
+		B5DB42961BDE4839007CAC85 /* CADiscoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB42951BDE4839007CAC85 /* CADiscoverVC.swift */; settings = {ASSET_TAGS = (); }; };
+		B5DB42981BDE484B007CAC85 /* CAHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB42971BDE484B007CAC85 /* CAHomeVC.swift */; settings = {ASSET_TAGS = (); }; };
+		B5DB429A1BDE4859007CAC85 /* CAMessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB42991BDE4859007CAC85 /* CAMessageVC.swift */; settings = {ASSET_TAGS = (); }; };
+		B5DB429C1BDE486A007CAC85 /* CAMineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB429B1BDE486A007CAC85 /* CAMineVC.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +38,7 @@
 /* Begin PBXFileReference section */
 		B5DB42491BDE428A007CAC85 /* CAWeiBoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAWeiBoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DB424C1BDE428A007CAC85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5DB424E1BDE428A007CAC85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B5DB42511BDE428A007CAC85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5DB42531BDE428A007CAC85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B5DB42561BDE428A007CAC85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5DB42581BDE428A007CAC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5DB425D1BDE428A007CAC85 /* CAWeiBoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAWeiBoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DB42611BDE428A007CAC85 /* CAWeiBoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAWeiBoAppTests.swift; sourceTree = "<group>"; };
@@ -47,6 +46,11 @@
 		B5DB42681BDE428A007CAC85 /* CAWeiBoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAWeiBoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DB426C1BDE428A007CAC85 /* CAWeiBoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAWeiBoAppUITests.swift; sourceTree = "<group>"; };
 		B5DB426E1BDE428A007CAC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5DB42931BDE45D1007CAC85 /* CAMainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAMainTabBarController.swift; sourceTree = "<group>"; };
+		B5DB42951BDE4839007CAC85 /* CADiscoverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CADiscoverVC.swift; sourceTree = "<group>"; };
+		B5DB42971BDE484B007CAC85 /* CAHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAHomeVC.swift; sourceTree = "<group>"; };
+		B5DB42991BDE4859007CAC85 /* CAMessageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAMessageVC.swift; sourceTree = "<group>"; };
+		B5DB429B1BDE486A007CAC85 /* CAMineVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAMineVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				B5DB424B1BDE428A007CAC85 /* CAWeiBoApp */,
-				B5DB42601BDE428A007CAC85 /* CAWeiBoAppTests */,
 				B5DB426B1BDE428A007CAC85 /* CAWeiBoAppUITests */,
 				B5DB424A1BDE428A007CAC85 /* Products */,
 			);
@@ -98,11 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				B5DB424C1BDE428A007CAC85 /* AppDelegate.swift */,
-				B5DB424E1BDE428A007CAC85 /* ViewController.swift */,
-				B5DB42501BDE428A007CAC85 /* Main.storyboard */,
+				B5DB427B1BDE447E007CAC85 /* Class */,
 				B5DB42531BDE428A007CAC85 /* Assets.xcassets */,
-				B5DB42551BDE428A007CAC85 /* LaunchScreen.storyboard */,
 				B5DB42581BDE428A007CAC85 /* Info.plist */,
+				B5DB42601BDE428A007CAC85 /* CAWeiBoAppTests */,
 			);
 			path = CAWeiBoApp;
 			sourceTree = "<group>";
@@ -114,7 +116,7 @@
 				B5DB42631BDE428A007CAC85 /* Info.plist */,
 			);
 			path = CAWeiBoAppTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		B5DB426B1BDE428A007CAC85 /* CAWeiBoAppUITests */ = {
 			isa = PBXGroup;
@@ -123,6 +125,202 @@
 				B5DB426E1BDE428A007CAC85 /* Info.plist */,
 			);
 			path = CAWeiBoAppUITests;
+			sourceTree = "<group>";
+		};
+		B5DB427B1BDE447E007CAC85 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B5DB42921BDE447E007CAC85 /* Tool(工具类) */,
+				B5DB42851BDE447E007CAC85 /* Lib(第三方框架) */,
+				B5DB42801BDE447E007CAC85 /* Extension(扩展) */,
+				B5DB42861BDE447E007CAC85 /* Main(主要的) */,
+				B5DB427C1BDE447E007CAC85 /* Discover(发现) */,
+				B5DB42811BDE447E007CAC85 /* Home(首页) */,
+				B5DB428A1BDE447E007CAC85 /* Message(消息) */,
+				B5DB428E1BDE447E007CAC85 /* Mine(我) */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		B5DB427C1BDE447E007CAC85 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				B5DB427D1BDE447E007CAC85 /* Controller */,
+				B5DB427E1BDE447E007CAC85 /* Model */,
+				B5DB427F1BDE447E007CAC85 /* View */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		B5DB427D1BDE447E007CAC85 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5DB42951BDE4839007CAC85 /* CADiscoverVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5DB427E1BDE447E007CAC85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5DB427F1BDE447E007CAC85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5DB42801BDE447E007CAC85 /* Extension(扩展) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Extension(扩展)";
+			sourceTree = "<group>";
+		};
+		B5DB42811BDE447E007CAC85 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				B5DB42821BDE447E007CAC85 /* Controller */,
+				B5DB42831BDE447E007CAC85 /* Model */,
+				B5DB42841BDE447E007CAC85 /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		B5DB42821BDE447E007CAC85 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5DB42971BDE484B007CAC85 /* CAHomeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5DB42831BDE447E007CAC85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5DB42841BDE447E007CAC85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5DB42851BDE447E007CAC85 /* Lib(第三方框架) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lib(第三方框架)";
+			sourceTree = "<group>";
+		};
+		B5DB42861BDE447E007CAC85 /* Main(主要的) */ = {
+			isa = PBXGroup;
+			children = (
+				B5DB42871BDE447E007CAC85 /* Controller */,
+				B5DB42881BDE447E007CAC85 /* Model */,
+				B5DB42891BDE447E007CAC85 /* View */,
+			);
+			path = "Main(主要的)";
+			sourceTree = "<group>";
+		};
+		B5DB42871BDE447E007CAC85 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5DB42931BDE45D1007CAC85 /* CAMainTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5DB42881BDE447E007CAC85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5DB42891BDE447E007CAC85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5DB428A1BDE447E007CAC85 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				B5DB428B1BDE447E007CAC85 /* Controller */,
+				B5DB428C1BDE447E007CAC85 /* Model */,
+				B5DB428D1BDE447E007CAC85 /* View */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		B5DB428B1BDE447E007CAC85 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5DB42991BDE4859007CAC85 /* CAMessageVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5DB428C1BDE447E007CAC85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5DB428D1BDE447E007CAC85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5DB428E1BDE447E007CAC85 /* Mine(我) */ = {
+			isa = PBXGroup;
+			children = (
+				B5DB428F1BDE447E007CAC85 /* Controller */,
+				B5DB42901BDE447E007CAC85 /* Model */,
+				B5DB42911BDE447E007CAC85 /* View */,
+			);
+			path = "Mine(我)";
+			sourceTree = "<group>";
+		};
+		B5DB428F1BDE447E007CAC85 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5DB429B1BDE486A007CAC85 /* CAMineVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5DB42901BDE447E007CAC85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5DB42911BDE447E007CAC85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5DB42921BDE447E007CAC85 /* Tool(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tool(工具类)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +385,7 @@
 		B5DB42411BDE428A007CAC85 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CA;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = HuangCarson;
 				TargetAttributes = {
@@ -231,9 +430,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5DB42571BDE428A007CAC85 /* LaunchScreen.storyboard in Resources */,
 				B5DB42541BDE428A007CAC85 /* Assets.xcassets in Resources */,
-				B5DB42521BDE428A007CAC85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +455,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5DB424F1BDE428A007CAC85 /* ViewController.swift in Sources */,
+				B5DB42961BDE4839007CAC85 /* CADiscoverVC.swift in Sources */,
+				B5DB429A1BDE4859007CAC85 /* CAMessageVC.swift in Sources */,
+				B5DB42941BDE45D1007CAC85 /* CAMainTabBarController.swift in Sources */,
+				B5DB429C1BDE486A007CAC85 /* CAMineVC.swift in Sources */,
 				B5DB424D1BDE428A007CAC85 /* AppDelegate.swift in Sources */,
+				B5DB42981BDE484B007CAC85 /* CAHomeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,25 +494,6 @@
 			targetProxy = B5DB42691BDE428A007CAC85 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B5DB42501BDE428A007CAC85 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5DB42511BDE428A007CAC85 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B5DB42551BDE428A007CAC85 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5DB42561BDE428A007CAC85 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B5DB426F1BDE428A007CAC85 /* Debug */ = {
@@ -399,7 +581,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = CAWeiBoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.Huang.CAWeiBoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +594,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = CAWeiBoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.Huang.CAWeiBoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
