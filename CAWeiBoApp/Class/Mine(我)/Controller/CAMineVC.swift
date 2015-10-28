@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CAMineVC: UITableViewController {
+class CAMineVC: CABaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -21,11 +21,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window?.rootViewController = CAMainTabBarController()
         
+        //设置全局导航栏的字体颜色为橘色
+        UINavigationBar.appearance().tintColor = UIColor.orangeColor()
+        
         //设置为主界面并且显示
         window?.makeKeyAndVisible()
         
         return true
     }
-
-}
+    
+    
+    
+ }
 

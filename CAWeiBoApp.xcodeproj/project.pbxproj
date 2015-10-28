@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5BC2FA81BDF062200C3D0A5 /* CABaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BC2FA71BDF062200C3D0A5 /* CABaseVC.swift */; settings = {ASSET_TAGS = (); }; };
+		B5BC2FAA1BDF068200C3D0A5 /* CAContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BC2FA91BDF068200C3D0A5 /* CAContentView.swift */; settings = {ASSET_TAGS = (); }; };
 		B5DB424D1BDE428A007CAC85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB424C1BDE428A007CAC85 /* AppDelegate.swift */; };
 		B5DB42541BDE428A007CAC85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5DB42531BDE428A007CAC85 /* Assets.xcassets */; };
 		B5DB42621BDE428A007CAC85 /* CAWeiBoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB42611BDE428A007CAC85 /* CAWeiBoAppTests.swift */; };
@@ -16,6 +18,7 @@
 		B5DB42981BDE484B007CAC85 /* CAHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB42971BDE484B007CAC85 /* CAHomeVC.swift */; settings = {ASSET_TAGS = (); }; };
 		B5DB429A1BDE4859007CAC85 /* CAMessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB42991BDE4859007CAC85 /* CAMessageVC.swift */; settings = {ASSET_TAGS = (); }; };
 		B5DB429C1BDE486A007CAC85 /* CAMineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB429B1BDE486A007CAC85 /* CAMineVC.swift */; settings = {ASSET_TAGS = (); }; };
+		B5F06B0F1BDE507D006B455A /* CATabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F06B0E1BDE507D006B455A /* CATabBar.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5BC2FA71BDF062200C3D0A5 /* CABaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CABaseVC.swift; sourceTree = "<group>"; };
+		B5BC2FA91BDF068200C3D0A5 /* CAContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAContentView.swift; sourceTree = "<group>"; };
 		B5DB42491BDE428A007CAC85 /* CAWeiBoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAWeiBoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DB424C1BDE428A007CAC85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5DB42531BDE428A007CAC85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +56,7 @@
 		B5DB42971BDE484B007CAC85 /* CAHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAHomeVC.swift; sourceTree = "<group>"; };
 		B5DB42991BDE4859007CAC85 /* CAMessageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAMessageVC.swift; sourceTree = "<group>"; };
 		B5DB429B1BDE486A007CAC85 /* CAMineVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAMineVC.swift; sourceTree = "<group>"; };
+		B5F06B0E1BDE507D006B455A /* CATabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CATabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				B5DB42931BDE45D1007CAC85 /* CAMainTabBarController.swift */,
+				B5BC2FA71BDF062200C3D0A5 /* CABaseVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -248,6 +255,8 @@
 		B5DB42891BDE447E007CAC85 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B5F06B0E1BDE507D006B455A /* CATabBar.swift */,
+				B5BC2FA91BDF068200C3D0A5 /* CAContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -456,6 +465,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5DB42961BDE4839007CAC85 /* CADiscoverVC.swift in Sources */,
+				B5BC2FA81BDF062200C3D0A5 /* CABaseVC.swift in Sources */,
+				B5F06B0F1BDE507D006B455A /* CATabBar.swift in Sources */,
+				B5BC2FAA1BDF068200C3D0A5 /* CAContentView.swift in Sources */,
 				B5DB429A1BDE4859007CAC85 /* CAMessageVC.swift in Sources */,
 				B5DB42941BDE45D1007CAC85 /* CAMainTabBarController.swift in Sources */,
 				B5DB429C1BDE486A007CAC85 /* CAMineVC.swift in Sources */,
@@ -670,6 +682,7 @@
 				B5DB42731BDE428A007CAC85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5DB42741BDE428A007CAC85 /* Build configuration list for PBXNativeTarget "CAWeiBoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -678,6 +691,7 @@
 				B5DB42761BDE428A007CAC85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5DB42771BDE428A007CAC85 /* Build configuration list for PBXNativeTarget "CAWeiBoAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -686,6 +700,7 @@
 				B5DB42791BDE428A007CAC85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

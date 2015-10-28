@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CAMessageVC: UITableViewController {
+class CAMessageVC: CABaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
