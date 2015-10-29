@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6E4B76883E91FD690E1E95C8 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B8B27B95CAF060BE732F9D /* Pods.framework */; };
+		B5377C701BE11A1D0075806C /* CAUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5377C6F1BE11A1D0075806C /* CAUserAccount.swift */; settings = {ASSET_TAGS = (); }; };
+		B583C33F1BE0F31B00EFD6F5 /* CANetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B583C33E1BE0F31B00EFD6F5 /* CANetworkTools.swift */; settings = {ASSET_TAGS = (); }; };
+		B583C3421BE0FA7100EFD6F5 /* CAOatuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B583C3411BE0FA7100EFD6F5 /* CAOatuthVC.swift */; settings = {ASSET_TAGS = (); }; };
 		B5BC2FA81BDF062200C3D0A5 /* CABaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BC2FA71BDF062200C3D0A5 /* CABaseVC.swift */; };
 		B5BC2FAA1BDF068200C3D0A5 /* CAContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BC2FA91BDF068200C3D0A5 /* CAContentView.swift */; };
 		B5DB424D1BDE428A007CAC85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB424C1BDE428A007CAC85 /* AppDelegate.swift */; };
@@ -42,6 +45,9 @@
 /* Begin PBXFileReference section */
 		27756797A957C63BF5EF1FB2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		2A50507130ED4883C94956DD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B5377C6F1BE11A1D0075806C /* CAUserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAUserAccount.swift; sourceTree = "<group>"; };
+		B583C33E1BE0F31B00EFD6F5 /* CANetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CANetworkTools.swift; sourceTree = "<group>"; };
+		B583C3411BE0FA7100EFD6F5 /* CAOatuthVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAOatuthVC.swift; sourceTree = "<group>"; };
 		B5BC2FA71BDF062200C3D0A5 /* CABaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CABaseVC.swift; sourceTree = "<group>"; };
 		B5BC2FA91BDF068200C3D0A5 /* CAContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAContentView.swift; sourceTree = "<group>"; };
 		B5DB42491BDE428A007CAC85 /* CAWeiBoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAWeiBoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +104,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B5377C6E1BE119F20075806C /* Model(全局模型) */ = {
+			isa = PBXGroup;
+			children = (
+				B5377C6F1BE11A1D0075806C /* CAUserAccount.swift */,
+			);
+			path = "Model(全局模型)";
+			sourceTree = "<group>";
+		};
+		B583C3401BE0FA5E00EFD6F5 /* Oauth */ = {
+			isa = PBXGroup;
+			children = (
+				B583C3411BE0FA7100EFD6F5 /* CAOatuthVC.swift */,
+			);
+			path = Oauth;
+			sourceTree = "<group>";
+		};
 		B5DB42401BDE428A007CAC85 = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +174,8 @@
 		B5DB427B1BDE447E007CAC85 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				B5377C6E1BE119F20075806C /* Model(全局模型) */,
+				B583C3401BE0FA5E00EFD6F5 /* Oauth */,
 				B5DB42921BDE447E007CAC85 /* Tool(工具类) */,
 				B5DB42851BDE447E007CAC85 /* Lib(第三方框架) */,
 				B5DB42801BDE447E007CAC85 /* Extension(扩展) */,
@@ -344,6 +368,7 @@
 		B5DB42921BDE447E007CAC85 /* Tool(工具类) */ = {
 			isa = PBXGroup;
 			children = (
+				B583C33E1BE0F31B00EFD6F5 /* CANetworkTools.swift */,
 			);
 			path = "Tool(工具类)";
 			sourceTree = "<group>";
@@ -542,11 +567,14 @@
 				B5DB42961BDE4839007CAC85 /* CADiscoverVC.swift in Sources */,
 				B5BC2FA81BDF062200C3D0A5 /* CABaseVC.swift in Sources */,
 				B5F06B0F1BDE507D006B455A /* CATabBar.swift in Sources */,
+				B583C3421BE0FA7100EFD6F5 /* CAOatuthVC.swift in Sources */,
 				B5BC2FAA1BDF068200C3D0A5 /* CAContentView.swift in Sources */,
 				B5DB429A1BDE4859007CAC85 /* CAMessageVC.swift in Sources */,
 				B5DB42941BDE45D1007CAC85 /* CAMainTabBarController.swift in Sources */,
+				B583C33F1BE0F31B00EFD6F5 /* CANetworkTools.swift in Sources */,
 				B5DB429C1BDE486A007CAC85 /* CAMineVC.swift in Sources */,
 				B5DB424D1BDE428A007CAC85 /* AppDelegate.swift in Sources */,
+				B5377C701BE11A1D0075806C /* CAUserAccount.swift in Sources */,
 				B5DB42981BDE484B007CAC85 /* CAHomeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

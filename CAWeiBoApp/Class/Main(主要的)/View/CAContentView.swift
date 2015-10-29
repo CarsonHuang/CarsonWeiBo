@@ -50,6 +50,8 @@ class CAContentView: UIView {
         animation.duration = 20
         //设置播放次数
         animation.repeatCount = MAXFLOAT
+        //加上这句，切换界面回来的时候，旋转不会停
+        animation.removedOnCompletion = false
         //添加核心动画到iconView
         iconView.layer.addAnimation(animation, forKey: nil)
     }
@@ -186,6 +188,9 @@ class CAContentView: UIView {
    
     func loginBtnClickAction() {
         print("点击了登录按钮")
+       
+        contentViewDelegate?.loginBtnClickAction()
+        
     }
     func registerBtnClickAction() {
         print("点击了注册按钮")

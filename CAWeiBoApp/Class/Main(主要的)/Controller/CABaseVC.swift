@@ -62,9 +62,19 @@ extension CABaseVC : CAContentViewDelegate
 {
     func loginBtnClickAction() {
         print("\(__FUNCTION__)")
+    
+        //创建OauthVC控制器
+        let oauthVC = CAOatuthVC()
+        
+        presentViewController(UINavigationController(rootViewController: oauthVC), animated: true
+        , completion: nil)
+        
     }
     
     func registerBtnClickAction() {
         print("\(__FUNCTION__)")
+        
+        
+        
     }
 }
